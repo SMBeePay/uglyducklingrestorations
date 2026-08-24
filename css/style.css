@@ -255,9 +255,8 @@ img { max-width: 100%; display: block; }
   overflow: hidden;
   padding: 6rem 0 5rem;
   background:
-    radial-gradient(circle at 82% 18%, rgba(184, 138, 59, 0.12), transparent 45%),
-    repeating-linear-gradient(100deg, #F7F4EF 0px, #F7F4EF 26px, #F1EBDE 26px, #F1EBDE 52px),
-    var(--cream);
+    radial-gradient(circle at 82% 18%, rgba(247, 244, 239, 0.16), transparent 45%),
+    var(--sage);
 }
 
 .hero-inner {
@@ -267,7 +266,7 @@ img { max-width: 100%; display: block; }
   align-items: center;
 }
 
-.hero-copy .eyebrow { display: block; }
+.hero-copy .eyebrow { display: block; color: var(--charcoal); }
 
 .hero-copy h1 { margin-bottom: 0.5rem; }
 
@@ -275,13 +274,13 @@ img { max-width: 100%; display: block; }
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-size: 1.25rem;
-  color: var(--sage);
+  color: var(--charcoal);
   margin-bottom: 1.1rem;
 }
 
 .hero-copy .lede {
   font-size: 1.08rem;
-  color: #4d4a44;
+  color: var(--charcoal);
   max-width: 46ch;
   margin-bottom: 2rem;
 }
@@ -298,16 +297,16 @@ img { max-width: 100%; display: block; }
   flex-wrap: wrap;
   gap: 1.5rem 2rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid rgba(34, 34, 34, 0.18);
   font-size: 0.85rem;
   font-weight: 600;
-  color: #4d4a44;
+  color: var(--charcoal);
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
 
 .hero-trust span { display: flex; align-items: center; gap: 0.5rem; }
-.hero-trust svg { width: 18px; height: 18px; color: var(--gold); flex-shrink: 0; }
+.hero-trust svg { width: 18px; height: 18px; color: var(--charcoal); flex-shrink: 0; }
 
 .hero-badge {
   display: flex;
