@@ -1,0 +1,10 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Force https and non-www (adjust if you prefer www)
+  RewriteCond %{HTTPS} off
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+ErrorDocument 404 /index.html
