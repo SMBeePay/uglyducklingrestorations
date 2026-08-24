@@ -83,8 +83,12 @@ POTENTIAL`, charcoal/taupe/sage/gold/cream palette, Playfair Display + Montserra
   used in the header and footer lockups, **with a true transparent background**
   (see note below) — reads cleanly on both the cream header and the charcoal
   footer
-- `logo-badge.png` / `.webp` — full primary arched badge, transparent background,
-  used in the hero
+- `logo-badge-card.png` / `.webp` — full primary arched badge used in the hero,
+  with a cream fill confined to the arch shape itself (not a rectangular card)
+  so it reads as a clean badge against the green hero background
+- `logo-badge.png` / `.webp` — same badge with a fully transparent background
+  (including the arch interior); kept for any future use on a background where
+  a card treatment isn't wanted, not currently linked from the page
 - `favicon.ico`, `favicon-16.png`, `favicon-32.png`, `favicon-180.png`,
   `favicon-512.png` — generated from the submark
 - `og-image.jpg` — 1200×630 social share image (badge flattened onto cream,
