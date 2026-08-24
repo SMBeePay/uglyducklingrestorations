@@ -152,7 +152,7 @@ img { max-width: 100%; display: block; }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(247, 244, 239, 0.96);
+  background: rgba(199, 184, 156, 0.97);
   backdrop-filter: saturate(140%) blur(6px);
   border-bottom: 1px solid var(--border);
 }
@@ -313,9 +313,16 @@ img { max-width: 100%; display: block; }
   justify-content: center;
 }
 
+.hero-badge-card {
+  background: var(--cream);
+  border-radius: 14px;
+  padding: 2.25rem 2.5rem;
+  box-shadow: 0 20px 40px rgba(15,13,10,0.2);
+}
+
 .hero-badge img {
-  width: min(360px, 100%);
-  filter: drop-shadow(0 18px 30px rgba(34,34,34,0.14));
+  width: min(320px, 100%);
+  display: block;
 }
 
 /* About */
@@ -673,6 +680,7 @@ img { max-width: 100%; display: block; }
   }
 
   .hero-badge { order: -1; }
+  .hero-badge-card { padding: 1.5rem 1.75rem; }
   .hero-badge img { width: 220px; }
 
   .services-grid { grid-template-columns: repeat(2, 1fr); }
